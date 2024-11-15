@@ -7,77 +7,80 @@ Input file: C:\Programs\Quake-Level-Design-Starter-Kit\maps\spAtlasPrison\l1_atl
 Output file: C:\Programs\Quake-Level-Design-Starter-Kit\maps\spAtlasPrison\l1_atlas.bsp
 
 INFO: using built-in palette.
-     5 entities
-     5 unique textures
-    35 texinfos
-    94 unique planes
+      5 entities
+      7 unique textures
+     80 texinfos
+    212 unique planes
 
-INFO: world extents calculated to 1704 units
-      243 brushes
-    1,458 sides
+INFO: world extents calculated to 2376 units
+      322 brushes
+    1,932 sides
+       39 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
 Processing hull 0...
-    243 SOLID brushes
-    243 brushes total
-    1,458 visible sides
-INFO: calculating BSP for 243 brushes with 1458 sides
-      243 brushes
-    1,458 visible faces
-    541 nodes
-    541 expensive split nodes
-    542 leaves
-    292 EMPTY leafs
-    250 SOLID leafs
-    542 leafs total
-    14 max tree height
-    11 avg tree height
-    2,376 tree portals
-WARNING: Reached occupant "info_player_start" at (48 -208 40), no filling performed.
+    322 SOLID brushes
+    322 brushes total
+    1,932 visible sides
+INFO: calculating BSP for 322 brushes with 1932 sides
+      322 brushes
+    1,932 visible faces
+    1,023 nodes
+      960 expensive split nodes
+       63 mid-split nodes
+    1,024 leaves
+      567 EMPTY leafs
+      457 SOLID leafs
+    1,024 leafs total
+    17 max tree height
+    12 avg tree height
+    4,329 tree portals
+WARNING: Reached occupant "monster_zombie" at (752 -208 24), no filling performed.
 Leak file written to l1_atlas.pts
             8 portals written to l1_atlas.leak.prt
-    2,376 tree portals
-    1,113 sides visible
-    1,113 makefaces
-      180 merged
-      153 subdivided
-    22 nodes pruned
-    292 EMPTY leafs
-    228 SOLID leafs
-    520 leafs total
-    14 max tree height
-    11 avg tree height
-      786 edges added by tjunctions
-    1,086 faces optimized through MWT
-    2,958 triangles computed from MWT
-      172 faces created via optimization of MWT triangles
-    3,021 edges
-    1,258 faces
+    4,329 tree portals
+    1,865 sides visible
+    1,865 makefaces
+      368 merged
+      195 subdivided
+    25 nodes pruned
+    567 EMPTY leafs
+    432 SOLID leafs
+    999 leafs total
+    17 max tree height
+    12 avg tree height
+    1,150 edges added by tjunctions
+    1,679 faces optimized through MWT
+    4,519 triangles computed from MWT
+      276 faces created via optimization of MWT triangles
+    4,629 edges
+    1,968 faces
 Processing hull 1...
-WARNING: Reached occupant "info_player_start" at (48 -208 40), no filling performed.
+WARNING: Reached occupant "monster_zombie" at (816 176 24), no filling performed.
 Processing hull 2...
+WARNING: Reached occupant "monster_zombie" at (816 176 24), no filling performed.
 WARNING: worldspawn at 0 0 0 has long value for key wad (length 278 >= 127)
 Writing l1_atlas.bsp as Quake BSP bsp29
 Wrote l1_atlas.bsp
 
 count   lump name    byte size 
       1 models               64
-    112 planes             2240
-   1202 vertexes          14424
-    519 nodes             12456
-     32 texinfos           1280
-   1258 faces             25160
-   4606 clipnodes         36848
-    293 leafs              8204
-   1342 marksurfaces       2684
-   3022 edges             12088
-   5474 surfedges         21896
-      5 textures          54584
+    306 planes             6120
+   1866 vertexes          22392
+    998 nodes             23952
+     67 texinfos           2680
+   1968 faces             39360
+  16229 clipnodes        129832
+    568 leafs             15904
+   2318 marksurfaces       4636
+   4630 edges             18520
+   8468 surfedges         33872
+      7 textures          77792
         lightdata             0
         visdata               0
-        entdata             408
+        entdata             616
 
-0.141s seconds elapsed
+0.198s seconds elapsed
 
 
