@@ -7,80 +7,85 @@ Input file: C:\Programs\Quake-Level-Design-Starter-Kit\maps\spAtlasPrison\l1_atl
 Output file: C:\Programs\Quake-Level-Design-Starter-Kit\maps\spAtlasPrison\l1_atlas.bsp
 
 INFO: using built-in palette.
-      5 entities
-      7 unique textures
-     80 texinfos
-    212 unique planes
+      9 entities
+     14 unique textures
+    466 texinfos
+    374 unique planes
 
-INFO: world extents calculated to 2376 units
-      322 brushes
-    1,932 sides
-       39 side bevels
+INFO: world extents calculated to 2408 units
+      440 brushes
+    2,633 sides
+      496 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
+WARNING: unable to find texture pebbledashStrip
+WARNING: unable to find texture pebbledash
+WARNING: unable to find texture __TB_empty
 Processing hull 0...
-    322 SOLID brushes
-    322 brushes total
-    1,932 visible sides
-INFO: calculating BSP for 322 brushes with 1932 sides
-      322 brushes
-    1,932 visible faces
-    1,023 nodes
-      960 expensive split nodes
-       63 mid-split nodes
-    1,024 leaves
-      567 EMPTY leafs
-      457 SOLID leafs
-    1,024 leafs total
-    17 max tree height
-    12 avg tree height
-    4,329 tree portals
+    440 SOLID brushes
+    440 brushes total
+    2,633 visible sides
+INFO: calculating BSP for 440 brushes with 2633 sides
+      440 brushes
+    2,553 visible faces
+       80 non-visible faces
+    1,295 nodes
+       92 non-visible nodes
+    1,274 expensive split nodes
+       21 mid-split nodes
+    1,296 leaves
+      650 EMPTY leafs
+      646 SOLID leafs
+    1,296 leafs total
+    20 max tree height
+    13 avg tree height
+    4 tiny portals
+    5,712 tree portals
 WARNING: Reached occupant "monster_zombie" at (752 -208 24), no filling performed.
 Leak file written to l1_atlas.pts
-            8 portals written to l1_atlas.leak.prt
-    4,329 tree portals
-    1,865 sides visible
-    1,865 makefaces
-      368 merged
-      195 subdivided
-    25 nodes pruned
-    567 EMPTY leafs
-    432 SOLID leafs
-    999 leafs total
-    17 max tree height
+           11 portals written to l1_atlas.leak.prt
+    4 tiny portals
+    5,712 tree portals
+    2,638 sides visible
+    2,638 makefaces
+      552 merged
+      273 subdivided
+    73 nodes pruned
+      650 EMPTY leafs
+      573 SOLID leafs
+    1,223 leafs total
+    20 max tree height
     12 avg tree height
-    1,150 edges added by tjunctions
-    1,679 faces optimized through MWT
-    4,519 triangles computed from MWT
-      276 faces created via optimization of MWT triangles
-    4,629 edges
-    1,968 faces
+    1,595 edges added by tjunctions
+    2,201 faces optimized through MWT
+    6,002 triangles computed from MWT
+      382 faces created via optimization of MWT triangles
+    6,153 edges
+    2,611 faces
 Processing hull 1...
-WARNING: Reached occupant "monster_zombie" at (816 176 24), no filling performed.
 Processing hull 2...
-WARNING: Reached occupant "monster_zombie" at (816 176 24), no filling performed.
 WARNING: worldspawn at 0 0 0 has long value for key wad (length 278 >= 127)
 Writing l1_atlas.bsp as Quake BSP bsp29
 Wrote l1_atlas.bsp
 
 count   lump name    byte size 
       1 models               64
-    306 planes             6120
-   1866 vertexes          22392
-    998 nodes             23952
-     67 texinfos           2680
-   1968 faces             39360
-  16229 clipnodes        129832
-    568 leafs             15904
-   2318 marksurfaces       4636
-   4630 edges             18520
-   8468 surfedges         33872
-      7 textures          77792
+    354 planes             7080
+   2534 vertexes          30408
+   1222 nodes             29328
+    334 texinfos          13360
+   2611 faces             52220
+   1037 clipnodes          8296
+    651 leafs             18228
+   3070 marksurfaces       6140
+   6154 edges             24616
+  11252 surfedges         45008
+     14 textures          99740
         lightdata             0
         visdata               0
-        entdata             616
+        entdata             728
 
-0.198s seconds elapsed
+1.059s seconds elapsed
 
 
