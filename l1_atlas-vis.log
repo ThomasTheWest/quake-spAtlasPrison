@@ -1,0 +1,22 @@
+---- vis / ericw-tools 2.0.0-alpha8-26-ged62ec10 ----
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+LoadBSPFile: 'l1_atlas.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+   540 leafs
+   540 clusters
+  1542 portals
+Calculating Base Vis:
+Calculating Full Vis:
+Expanding clusters...
+average leafs visible: 187
+c_noclip: 0
+c_chains: 4623480
+visdatasize:26850  compressed from 36720
+Writing l1_atlas.bsp as Quake BSP bsp29
+1.52s elapsed
+
+
