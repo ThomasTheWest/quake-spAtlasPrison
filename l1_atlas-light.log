@@ -1,6 +1,6 @@
 ---- light / ericw-tools 2.0.0-alpha8-26-ged62ec10 ----
 LoadBSPFile: 'l1_atlas.bsp'
-BSP is version Quake BSP bsp29
+BSP is version Quake BSP2 bsp2
 INFO: using built-in palette.
 img::ConvertTextures: WARNING: invalid size data for 
 img::ConvertTextures: WARNING: Texture  duplicated
@@ -11,7 +11,7 @@ WARNING: brush entity with mins [1013 -391 37] maxs [1035 -389 59] (func_button)
 WARNING: brush entity with mins [1077 -347 325] maxs [1079 -325 347] (func_button) has empty key/value "message" ""
 WARNING: brush entity with mins [933 -275 325] maxs [955 -273 347] (func_button) has empty key/value "message" ""
 WARNING: brush entity with mins [1077 -271 37] maxs [1099 -269 59] (func_button) has empty key/value "message" ""
-66 entities read, 29 are lights.
+72 entities read, 31 are lights.
 
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
@@ -20,20 +20,20 @@ DecompressAllVis: invalid visofs for leaf 0
 Embree_TraceInit: Embree version: 3.12.1
 Embree_TraceInit: 
 	0 sky faces
-	3285 solid faces
-	1342 filtered faces
+	6306 solid faces
+	1629 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 29 initial lights
-SetupLights: 29 after surface lights
-SetupLights: 29 after jittering
-Final count: 29 lights, 0 suns in use.
+SetupLights: 31 initial lights
+SetupLights: 31 after surface lights
+SetupLights: 31 after jittering
+Final count: 31 lights, 0 suns in use.
 0 surface light points in use.
-lightmap size (total): 76736
+lightmap size (total): 84560
 Lighting Completed.
 
 0 switchable light styles (32 max)
-Writing l1_atlas.bsp as Quake BSP bsp29
-0.076s seconds elapsed
+Writing l1_atlas.bsp as Quake BSP2 bsp2
+0.147s seconds elapsed
 0 empty lightmaps
 
 
