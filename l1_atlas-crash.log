@@ -1,0 +1,13 @@
+Renderer info: NVIDIA GeForce RTX 3070 Laptop GPU/PCIe/SSE2 version 4.6.0 NVIDIA 566.36 from NVIDIA Corporation
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path "C:/Programs/Quake-Level-Design-Starter-Kit/level-editor\\defaults\\assets"
+Adding file system path "C:/Programs/Quake-Level-Design-Starter-Kit/tools/ironwail\\id1"
+Adding file system package "PAK0.PAK"
+Adding file system package "PAK1.PAK"
+Loading document from C:\Programs\Quake-Level-Design-Starter-Kit\maps\spAtlasPrison\l1_atlas.map
+Found 0 shaders
+Loaded entity definition file Quake.fgd
+Found 0 shaders
+Loaded "C:\\Programs\\Quake-Level-Design-Starter-Kit\\maps\\spAtlasPrison\\l1_atlas.map" in 84ms
+Saved "C:\\Programs\\Quake-Level-Design-Starter-Kit\\maps\\spAtlasPrison\\l1_atlas.map" in 16ms

@@ -7,86 +7,88 @@ Input file: C:\Programs\Quake-Level-Design-Starter-Kit\maps\spAtlasPrison\l1_atl
 Output file: C:\Programs\Quake-Level-Design-Starter-Kit\maps\spAtlasPrison\l1_atlas.bsp
 
 INFO: using built-in palette.
-       58 entities
-       31 unique textures
-    1,070 texinfos
-      804 unique planes
+      110 entities
+       34 unique textures
+    1,517 texinfos
+    1,272 unique planes
 
-INFO: world extents calculated to 2760 units
-      719 brushes
-    4,306 sides
-    1,219 side bevels
+INFO: world extents calculated to 3752 units
+      909 brushes
+    5,466 sides
+      990 side bevels
 
             4 texture frames added
 WARNING: unable to find texture skip
 WARNING: unable to find texture pebbledashStrip
 WARNING: unable to find texture __TB_empty
 Processing hull 0...
-    712 SOLID brushes
-    712 brushes total
-    4,264 visible sides
-INFO: calculating BSP for 712 brushes with 4264 sides
-      712 brushes
-    4,252 visible faces
-       12 non-visible faces
-    2,323 nodes
-       18 non-visible nodes
-    2,298 expensive split nodes
-       25 mid-split nodes
-    2,324 leaves
-    1,209 EMPTY leafs
-    1,115 SOLID leafs
-    2,324 leafs total
-    24 max tree height
-    14 avg tree height
-    10 tiny portals
-    10,786 tree portals
-WARNING: Reached occupant "light_fluoro" at (816 -176 396), no filling performed.
+    869 SOLID brushes
+    869 brushes total
+    5,226 visible sides
+INFO: calculating BSP for 869 brushes with 5226 sides
+      869 brushes
+    5,220 visible faces
+        6 non-visible faces
+    3,964 nodes
+    3,587 expensive split nodes
+      377 mid-split nodes
+    3,965 leaves
+    2,132 EMPTY leafs
+    1,833 SOLID leafs
+    3,965 leafs total
+    28 max tree height
+    15 avg tree height
+    9 tiny portals
+    18,042 tree portals
+WARNING: Reached occupant "light_fluoro" at (1120 464 128), no filling performed.
 Leak file written to l1_atlas.pts
-            9 portals written to l1_atlas.leak.prt
-    10 tiny portals
-    10,786 tree portals
-    4,913 sides visible
-    4,913 makefaces
-    1,143 merged
-      341 subdivided
-    133 nodes pruned
-    1,209 EMPTY leafs
-      982 SOLID leafs
-    2,191 leafs total
-    24 max tree height
-    14 avg tree height
+           12 portals written to l1_atlas.leak.prt
+    9 tiny portals
+    18,042 tree portals
+    7,292 sides visible
+    7,292 makefaces
+    1,384 merged
+      494 subdivided
+    213 nodes pruned
+    2,132 EMPTY leafs
+    1,620 SOLID leafs
+    3,752 leafs total
+    28 max tree height
+    15 avg tree height
          2 edges degenerated
-     3,317 edges added by tjunctions
-     4,028 faces optimized through MWT
-    11,417 triangles computed from MWT
-       859 faces created via optimization of MWT triangles
-    11,282 edges
-     4,950 faces
+     5,234 edges added by tjunctions
+     6,291 faces optimized through MWT
+    17,869 triangles computed from MWT
+     1,479 faces created via optimization of MWT triangles
+    17,559 edges
+     7,879 faces
 Processing hull 1...
-WARNING: Reached occupant "info_player_start" at (1008 -144 24), no filling performed.
+WARNING: Reached occupant "monster_zombie" at (1376 304 24), no filling performed.
 Processing hull 2...
+WARNING: Reached occupant "monster_ogre" at (1664 -96 24), no filling performed.
 WARNING: worldspawn at 0 0 0 has long value for key wad (length 278 >= 127)
-Writing l1_atlas.bsp as Quake BSP bsp29
+LIMITS EXCEEDED ON dclipnode_t::children
+NOTE: limits exceeded for Quake BSP - switching to Quake BSP2
+Writing l1_atlas.bsp as Quake BSP2 bsp2
 Wrote l1_atlas.bsp
 
 count   lump name    byte size 
-      8 models              512
-   1555 planes            31100
-   4987 vertexes          59844
-   2232 nodes             53568
-    771 texinfos          30840
-   4992 faces             99840
-  63081 clipnodes        504648
-   1259 leafs             35252
-   6225 marksurfaces      12450
-  11367 edges             45468
-  21548 surfedges         86192
-     35 textures         183664
+     20 models             1280
+   2452 planes            49040
+   8201 vertexes          98412
+   3909 nodes            171996
+   1131 texinfos          45240
+   8065 faces            225820
+ 123855 clipnodes       1486260
+   2310 leafs            101640
+   9687 marksurfaces      38748
+  17946 edges            143568
+  34508 surfedges        138032
+     38 textures         200116
         lightdata             0
         visdata               0
-        entdata            2363
+        entdata            5544
 
-1.712s seconds elapsed
+1.207s seconds elapsed
 
 
