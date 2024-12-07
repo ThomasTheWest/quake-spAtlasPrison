@@ -7,86 +7,86 @@ Input file: C:\Programs\Quake-Level-Design-Starter-Kit\maps\spAtlasPrison\l1_atl
 Output file: C:\Programs\Quake-Level-Design-Starter-Kit\maps\spAtlasPrison\l1_atlas.bsp
 
 INFO: using built-in palette.
-      191 entities
+      231 entities
        39 unique textures
-    1,785 texinfos
-    1,626 unique planes
+    1,882 texinfos
+    1,784 unique planes
 
 INFO: world extents calculated to 3752 units
-      959 brushes
-    5,794 sides
-    1,235 side bevels
+    1,134 brushes
+    6,833 sides
+    1,452 side bevels
 
             9 texture frames added
 WARNING: unable to find texture skip
 WARNING: unable to find texture pebbledashStrip
 Processing hull 0...
-    847 SOLID brushes
-      1 SKY brushes
-     33 MIST | Q2_UNUSED_8 brushes
-    881 brushes total
-    5,324 visible sides
-INFO: calculating BSP for 881 brushes with 5324 sides
-      881 brushes
-    5,324 visible faces
-    4,608 nodes
-    4,291 expensive split nodes
-      317 mid-split nodes
-    4,609 leaves
-    2,570 EMPTY leafs
-    1,991 SOLID leafs
-       41 MIST | Q2_UNUSED_8 leafs
+      944 SOLID brushes
+        1 SKY brushes
+       80 MIST | Q2_UNUSED_8 brushes
+    1,025 brushes total
+    6,186 visible sides
+INFO: calculating BSP for 1025 brushes with 6186 sides
+    1,025 brushes
+    6,186 visible faces
+    5,591 nodes
+    5,248 expensive split nodes
+      343 mid-split nodes
+    5,592 leaves
+    3,051 EMPTY leafs
+    2,423 SOLID leafs
+      111 MIST | Q2_UNUSED_8 leafs
         7 SKY leafs
-    4,609 leafs total
-    27 max tree height
-    16 avg tree height
-    18 tiny portals
-    21,138 tree portals
-    656 outside leaves
-    0 detail filled leafs
-      881 brushes
-    2,685 visible faces
-    2,639 non-visible faces
-    3,385 nodes
-    1,220 non-visible nodes
-    3,385 expensive split nodes
-    3,386 leaves
-    1,775 EMPTY leafs
-    1,569 SOLID leafs
-       37 MIST | Q2_UNUSED_8 leafs
-        5 SKY leafs
-    3,386 leafs total
-    31 max tree height
-    15 avg tree height
-    18 tiny portals
-    16,169 tree portals
+    5,592 leafs total
+    28 max tree height
+    17 avg tree height
+    16 tiny portals
+    25,200 tree portals
     663 outside leaves
     0 detail filled leafs
-    18 tiny portals
-    16,169 tree portals
-    5,638 sides visible
-    5,536 makefaces
-    1,640 merged
-      362 subdivided
-    1,346 nodes pruned
-    16 tiny portals
-    1,154 player-occupiable leaves
-    1,050 clusters of leaves
-    3,187 vis portals
-      886 SOLID leafs
-    1,112 EMPTY leafs
-       37 MIST | Q2_UNUSED_8 leafs
-        5 SKY leafs
-    2,040 leafs total
-    30 max tree height
-    15 avg tree height
+    1,025 brushes
+    3,302 visible faces
+    2,884 non-visible faces
+    4,185 nodes
+    1,282 non-visible nodes
+    4,185 expensive split nodes
+    4,186 leaves
+    2,161 EMPTY leafs
+    1,925 SOLID leafs
+       94 MIST | Q2_UNUSED_8 leafs
+        6 SKY leafs
+    4,186 leafs total
+    28 max tree height
+    16 avg tree height
+    24 tiny portals
+    20,040 tree portals
+    674 outside leaves
+    0 detail filled leafs
+    24 tiny portals
+    20,040 tree portals
+    7,781 sides visible
+    7,581 makefaces
+    2,371 merged
+      358 subdivided
+    1,497 nodes pruned
+    20 tiny portals
+    1,587 player-occupiable leaves
+    1,372 clusters of leaves
+    4,262 vis portals
+    1,102 SOLID leafs
+    1,487 EMPTY leafs
+       94 MIST | Q2_UNUSED_8 leafs
+        6 SKY leafs
+    2,689 leafs total
+    27 max tree height
+    16 avg tree height
          2 edges degenerated
-     3,947 edges added by tjunctions
-     4,091 faces optimized through MWT
-    12,173 triangles computed from MWT
-     1,106 faces created via optimization of MWT triangles
-    11,811 edges
-     5,364 faces
+     5,171 edges added by tjunctions
+     5,390 faces optimized through MWT
+    16,020 triangles computed from MWT
+     1,527 faces created via optimization of MWT triangles
+    15,640 edges
+     7,095 faces
 Processing hull 1...
 Processing hull 2...
 WARNING: worldspawn at 0 0 0 has long value for key wad (length 278 >= 127)
@@ -95,21 +95,21 @@ Wrote l1_atlas.bsp
 
 count   lump name    byte size 
      34 models             2176
-   1269 planes            25380
-   6241 vertexes          74892
-   2281 nodes             54744
-   1204 texinfos          48160
-   5634 faces            112680
-   3705 clipnodes         29640
-   1430 leafs             40040
-   7629 marksurfaces      15258
-  12366 edges             49464
-  24176 surfedges         96704
+   1337 planes            26740
+   8044 vertexes          96528
+   2930 nodes             70320
+   1201 texinfos          48040
+   7365 faces            147300
+   4122 clipnodes         32976
+   1863 leafs             52164
+   9840 marksurfaces      19680
+  16195 edges             64780
+  31496 surfedges        125984
      48 textures         295796
         lightdata             0
         visdata               0
-        entdata            9288
+        entdata            9687
 
-2.123s seconds elapsed
+2.153s seconds elapsed
 
 

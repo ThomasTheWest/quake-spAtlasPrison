@@ -13,33 +13,34 @@ WARNING: brush entity with mins [833 -399 289] maxs [847 -273 415] (trigger_once
 WARNING: entity at (1680 -240 0) (weapon_grenadelauncher) has empty key/value "targetname" ""
 WARNING: entity at (1360 816 24) (monster_zombie) has empty key/value "targetname" ""
 WARNING: entity at (768 688 24) (monster_enforcer) has empty key/value "targetname" ""
-WARNING: brush entity with mins [1025 583 1] maxs [1119 585 95] (func_door) has empty key/value "target" ""
+WARNING: brush entity with mins [881 615 1] maxs [975 617 95] (func_door) has empty key/value "targetname" ""
+WARNING: brush entity with mins [881 615 1] maxs [975 617 95] (func_door) has empty key/value "target" ""
 WARNING: entity at (1360 768 24) (monster_zombie) has empty key/value "targetname" ""
 WARNING: entity at (1360 864 24) (monster_zombie) has empty key/value "targetname" ""
 WARNING: entity at (1376 1104 24) (monster_dog) has empty key/value "targetname" ""
 WARNING: entity at (1376 1184 24) (monster_dog) has empty key/value "targetname" ""
-108 entities read, 36 are lights.
+112 entities read, 38 are lights.
 
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
 
 Embree_TraceInit: Embree version: 3.12.1
 Embree_TraceInit: 
-	11 sky faces
-	3974 solid faces
-	1220 filtered faces
+	14 sky faces
+	5747 solid faces
+	944 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 36 initial lights
-SetupLights: 36 after surface lights
-SetupLights: 36 after jittering
-Final count: 36 lights, 0 suns in use.
+SetupLights: 38 initial lights
+SetupLights: 38 after surface lights
+SetupLights: 38 after jittering
+Final count: 38 lights, 0 suns in use.
 0 surface light points in use.
-lightmap size (total): 90700
+lightmap size (total): 98584
 Lighting Completed.
 
 0 switchable light styles (32 max)
 Writing l1_atlas.bsp as Quake BSP bsp29
-0.128s seconds elapsed
+0.159s seconds elapsed
 0 empty lightmaps
 
 
