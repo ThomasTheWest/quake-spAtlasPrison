@@ -1,39 +1,45 @@
 ---- light / ericw-tools 2.0.0-alpha8-26-ged62ec10 ----
 LoadBSPFile: 'l1_atlas.bsp'
-BSP is version Quake BSP2 bsp2
+BSP is version Quake BSP bsp29
 INFO: using built-in palette.
 img::ConvertTextures: WARNING: invalid size data for 
 img::ConvertTextures: WARNING: Texture  duplicated
-img::ConvertTextures: WARNING: Texture  duplicated
 Loading extended texinfo flags from l1_atlas.texinfo.json...
-WARNING: entity at (1680 -240 0) (weapon_grenadelauncher) has empty key/value "targetname" ""
 WARNING: brush entity with mins [1013 -391 37] maxs [1035 -389 59] (func_button) has empty key/value "message" ""
 WARNING: brush entity with mins [1077 -347 325] maxs [1079 -325 347] (func_button) has empty key/value "message" ""
 WARNING: brush entity with mins [933 -275 325] maxs [955 -273 347] (func_button) has empty key/value "message" ""
 WARNING: brush entity with mins [1077 -271 37] maxs [1099 -269 59] (func_button) has empty key/value "message" ""
-72 entities read, 31 are lights.
+WARNING: brush entity with mins [833 -399 289] maxs [847 -273 415] (trigger_once) has empty key/value "targetname" ""
+WARNING: entity at (1680 -240 0) (weapon_grenadelauncher) has empty key/value "targetname" ""
+WARNING: entity at (1360 816 24) (monster_zombie) has empty key/value "targetname" ""
+WARNING: entity at (768 688 24) (monster_enforcer) has empty key/value "targetname" ""
+WARNING: brush entity with mins [1025 583 1] maxs [1119 585 95] (func_door) has empty key/value "target" ""
+WARNING: entity at (1360 768 24) (monster_zombie) has empty key/value "targetname" ""
+WARNING: entity at (1360 864 24) (monster_zombie) has empty key/value "targetname" ""
+WARNING: entity at (1376 1104 24) (monster_dog) has empty key/value "targetname" ""
+WARNING: entity at (1376 1184 24) (monster_dog) has empty key/value "targetname" ""
+108 entities read, 36 are lights.
 
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
 
-DecompressAllVis: invalid visofs for leaf 0
 Embree_TraceInit: Embree version: 3.12.1
 Embree_TraceInit: 
-	0 sky faces
-	6306 solid faces
-	1629 filtered faces
+	11 sky faces
+	3974 solid faces
+	1220 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 31 initial lights
-SetupLights: 31 after surface lights
-SetupLights: 31 after jittering
-Final count: 31 lights, 0 suns in use.
+SetupLights: 36 initial lights
+SetupLights: 36 after surface lights
+SetupLights: 36 after jittering
+Final count: 36 lights, 0 suns in use.
 0 surface light points in use.
-lightmap size (total): 84560
+lightmap size (total): 90700
 Lighting Completed.
 
 0 switchable light styles (32 max)
-Writing l1_atlas.bsp as Quake BSP2 bsp2
-0.147s seconds elapsed
+Writing l1_atlas.bsp as Quake BSP bsp29
+0.128s seconds elapsed
 0 empty lightmaps
 
 
