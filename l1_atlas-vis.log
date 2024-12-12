@@ -6,17 +6,17 @@
 LoadBSPFile: 'l1_atlas.bsp'
 BSP is version Quake BSP bsp29
 INFO: using built-in palette.
-  1587 leafs
-  1372 clusters
-  4262 portals
+  1607 leafs
+  1387 clusters
+  4292 portals
 Calculating Base Vis:
 Calculating Full Vis:
 Expanding clusters...
-average leafs visible: 420
+average leafs visible: 424
 c_noclip: 0
-c_chains: 38068270
-visdatasize:114963  compressed from 315813
+c_chains: 36572145
+visdatasize:117861  compressed from 323007
 Writing l1_atlas.bsp as Quake BSP bsp29
-9.10s elapsed
+13.50s elapsed
 
 

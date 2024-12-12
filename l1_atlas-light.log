@@ -4,22 +4,25 @@ BSP is version Quake BSP bsp29
 INFO: using built-in palette.
 img::ConvertTextures: WARNING: invalid size data for 
 img::ConvertTextures: WARNING: Texture  duplicated
+img::ConvertTextures: WARNING: Texture  duplicated
+img::ConvertTextures: WARNING: Texture  duplicated
+img::ConvertTextures: WARNING: Texture  duplicated
+img::ConvertTextures: WARNING: Texture  duplicated
 Loading extended texinfo flags from l1_atlas.texinfo.json...
 WARNING: brush entity with mins [1013 -391 37] maxs [1035 -389 59] (func_button) has empty key/value "message" ""
 WARNING: brush entity with mins [1077 -347 325] maxs [1079 -325 347] (func_button) has empty key/value "message" ""
 WARNING: brush entity with mins [933 -275 325] maxs [955 -273 347] (func_button) has empty key/value "message" ""
 WARNING: brush entity with mins [1077 -271 37] maxs [1099 -269 59] (func_button) has empty key/value "message" ""
 WARNING: brush entity with mins [833 -399 289] maxs [847 -273 415] (trigger_once) has empty key/value "targetname" ""
+WARNING: entity at (496 96 108) (light_fluoro) has empty key/value "mangle" ""
 WARNING: entity at (1680 -240 0) (weapon_grenadelauncher) has empty key/value "targetname" ""
 WARNING: entity at (1360 816 24) (monster_zombie) has empty key/value "targetname" ""
-WARNING: entity at (768 688 24) (monster_enforcer) has empty key/value "targetname" ""
-WARNING: brush entity with mins [881 615 1] maxs [975 617 95] (func_door) has empty key/value "targetname" ""
-WARNING: brush entity with mins [881 615 1] maxs [975 617 95] (func_door) has empty key/value "target" ""
+WARNING: entity at (400 -200 244) (light_fluorospark) has empty key/value "mangle" ""
 WARNING: entity at (1360 768 24) (monster_zombie) has empty key/value "targetname" ""
 WARNING: entity at (1360 864 24) (monster_zombie) has empty key/value "targetname" ""
-WARNING: entity at (1376 1104 24) (monster_dog) has empty key/value "targetname" ""
-WARNING: entity at (1376 1184 24) (monster_dog) has empty key/value "targetname" ""
-112 entities read, 38 are lights.
+WARNING: entity at (112 96 108) (light_fluoro) has empty key/value "mangle" ""
+WARNING: entity at (704 688 24) (monster_enforcer) has empty key/value "targetname" ""
+121 entities read, 41 are lights.
 
 --- Options Summary ---
     "nocolor" was set to "1" (from command line)
@@ -27,20 +30,20 @@ WARNING: entity at (1376 1184 24) (monster_dog) has empty key/value "targetname"
 Embree_TraceInit: Embree version: 3.12.1
 Embree_TraceInit: 
 	14 sky faces
-	5747 solid faces
-	944 filtered faces
+	5795 solid faces
+	956 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 38 initial lights
-SetupLights: 38 after surface lights
-SetupLights: 38 after jittering
-Final count: 38 lights, 0 suns in use.
+SetupLights: 41 initial lights
+SetupLights: 41 after surface lights
+SetupLights: 41 after jittering
+Final count: 41 lights, 0 suns in use.
 0 surface light points in use.
-lightmap size (total): 98584
+lightmap size (total): 103080
 Lighting Completed.
 
-0 switchable light styles (32 max)
+1 switchable light styles (32 max)
 Writing l1_atlas.bsp as Quake BSP bsp29
-0.159s seconds elapsed
+0.230s seconds elapsed
 0 empty lightmaps
 
 
