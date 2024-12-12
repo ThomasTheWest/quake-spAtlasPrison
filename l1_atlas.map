@@ -11849,7 +11849,9 @@
 // entity 226
 {
 "classname" "trigger_changelevel"
-"message" "End of l1"
+"message" ""
+"target" ""
+"map" "start"
 // brush 0
 {
 ( 1008 736 128 ) ( 1008 720 128 ) ( 1008 720 0 ) trigger [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1

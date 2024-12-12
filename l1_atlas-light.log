@@ -21,6 +21,8 @@ WARNING: entity at (400 -200 244) (light_fluorospark) has empty key/value "mangl
 WARNING: entity at (1360 768 24) (monster_zombie) has empty key/value "targetname" ""
 WARNING: entity at (1360 864 24) (monster_zombie) has empty key/value "targetname" ""
 WARNING: entity at (112 96 108) (light_fluoro) has empty key/value "mangle" ""
+WARNING: brush entity with mins [1009 721 1] maxs [1135 735 127] (trigger_changelevel) has empty key/value "message" ""
+WARNING: brush entity with mins [1009 721 1] maxs [1135 735 127] (trigger_changelevel) has empty key/value "target" ""
 WARNING: entity at (704 688 24) (monster_enforcer) has empty key/value "targetname" ""
 121 entities read, 41 are lights.
 
@@ -43,7 +45,7 @@ Lighting Completed.
 
 1 switchable light styles (32 max)
 Writing l1_atlas.bsp as Quake BSP bsp29
-0.230s seconds elapsed
+0.200s seconds elapsed
 0 empty lightmaps
 
 
